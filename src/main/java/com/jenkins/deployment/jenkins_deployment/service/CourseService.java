@@ -21,7 +21,6 @@ public class CourseService {
     public List<Course> getAllCourses() {
         return courses;
     }
-
     // Retrieve a course by id
     public Optional<Course> getCourseById(int id) {
         return courses.stream()
