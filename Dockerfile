@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/jenkinsDevOps.jar jenkinsDevOps.jar
-ENTRYPOINT ["java","-jar","/jenkinsDevOps.jar"]
+ADD target/jenkins-dev-ops.jar jenkins-dev-ops.jar
+ENTRYPOINT ["java","-jar","/jenkins-dev-ops.jar"]

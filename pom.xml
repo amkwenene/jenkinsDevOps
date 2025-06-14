@@ -69,7 +69,7 @@
 				<artifactId>git-commit-id-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>jenkinsDevOps</finalName>
+		<finalName>jenkins-dev-ops</finalName>
 	</build>
 
 </project>
